@@ -1,7 +1,5 @@
 let vecA = [1, -3, 6];
 let vecB = [2, 5, 7];
-let crossP = [];
-
 let n = 3;
 
 function dotProduct(vecA, vecB) {
