@@ -10,10 +10,4 @@ function dotProduct(vecA, vecB) {
   return P;
 }
 
-function crossProduct(vecA, vecB, crossP) {
-  crossP[0] = vecA[1] * vecB[2] - vecA[2] * vecB[1];
-  crossP[1] = vecA[2] * vecB[0] - vecA[0] * vecB[2];
-  crossP[2] = vecA[0] * vecB[1] - vecA[1] * vecB[0];
-}
-
 console.log("Dot Product: ", dotProduct(vecA, vecB));
